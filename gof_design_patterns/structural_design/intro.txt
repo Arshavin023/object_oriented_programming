@@ -1,0 +1,4 @@
+Structural design patterns: Focus on the composition of classes and objects to form larger structures.
+* Promote code reusability and modularity
+* Enhance flexibility and extensibility
+* Improve performance and resource utilization

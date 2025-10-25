@@ -4,18 +4,18 @@
 
 from abc import ABC, abstractmethod
 
-# Bad Example:
-class Engine:
-    def start(self):
-        print("Engine started")
+# # Bad Example:
+# class Engine:
+#     def start(self):
+#         print("Engine started")
 
-class Car:
-    def __init__(self):
-        self.engine = Engine()  # High-level module depends on low-level module
+# class Car:
+#     def __init__(self):
+#         self.engine = Engine()  # High-level module depends on low-level module
 
-    def start(self):
-        self.engine.start()
-        print("Car started")
+#     def start(self):
+#         self.engine.start()
+#         print("Car started")
 
 # Good Example:
 class Engine(ABC):
